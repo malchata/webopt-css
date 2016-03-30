@@ -127,6 +127,9 @@ header{
 	margin: 11px 20px 0 0;
 	line-height: 17px;
 	text-align: right;
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
 }
 
 .mainContent{
@@ -215,6 +218,9 @@ header{
 
 .locationHeader{
 	margin: 0 0 6px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
 }
 
 .listContainer{
@@ -435,13 +441,6 @@ textarea{
 	z-index: 1002;
 	position: absolute;
 	display: none;
-}
-
-.greyStrip h2,
-.rightLocations h2{
-	font-weight: 700;
-	color: #fff;
-	font-size: 17px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
