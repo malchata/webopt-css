@@ -167,6 +167,9 @@ header div.greyStrip h2.motto{
 	margin: 11px 20px 0 0;
 	line-height: 17px;
 	text-align: right;
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
 }
 
 header div.greyStrip h2.motto span{
@@ -356,6 +359,9 @@ div.mainContent div.locationsArea div.rightLocations{
 
 div.mainContent div.locationsArea div.rightLocations h2.locationHeader{
 	margin: 0 0 6px;
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
 }
 
 div.mainContent div.locationsArea div.rightLocations div.listContainer{
@@ -591,21 +597,6 @@ a.closeModal:before{
 
 a.closeModal:after{
 	transform: rotate(-45deg);
-}
-
-div.loader,
-div.statusModal{
-	top: 296px;
-	z-index: 1002;
-	position: absolute;
-	display: none;
-}
-
-div.greyStrip h2,
-div.rightLocations h2{
-	font-weight: 700;
-	color: #fff;
-	font-size: 17px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
