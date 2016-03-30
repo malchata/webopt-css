@@ -27,18 +27,9 @@ header,
 menu,
 nav,
 section{
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0;
-	border-top: 0;
-	border-right: 0;
-	border-bottom: 0;
-	border-left: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,13 +55,9 @@ html{
 
 body{
 	font-family: "Arial", "Helvetica", sans-serif;
-	padding-top: 8px;
-	padding-right: 0;
-	padding-bottom: 16px;
-	padding-left: 0;
+	padding: 8px 0 16px;
 	overflow-x: hidden;
-	background-image: url("../img/bg.png");
-	background-color: #000;
+	background: #000 url("../img/bg.png");
 }
 
 body.locked{
@@ -78,27 +65,18 @@ body.locked{
 }
 
 a img{
-	border-top: 0;
-	border-right: 0;
-	border-bottom: 0;
-	border-left: 0;
+	border: 0;
 }
 
 div.pageFade{
 	opacity: 0.75;
-	background-color: #222;
+	background: #222;
 	width: 100%;
 	height: 100%;
 	position: fixed;
 	z-index: 999;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0;
+	margin: 0;
+	padding: 0;
 	top: 0;
 	left: 0;
 	display: none;
@@ -107,10 +85,7 @@ div.pageFade{
 div.pageWrapper{
 	width: 100%;
 	max-width: 906px;
-	margin-top: 0;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
+	margin: 0 auto;
 }
 
 header{
@@ -133,7 +108,7 @@ header div.logo a{
 	width: 282px;
 	height: 184px;
 	display: block;
-	background-image: url("../img/logo.png");
+	background: url("../img/logo.png");
 }
 
 header div.phoneNumber{
@@ -146,22 +121,16 @@ header div.phoneNumber{
 
 header div.phoneNumber h3.numberHeader{
 	font-size: 12px;
-	font-weight: bold;
+	font-weight: 700;
 	color: #fff;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: -8px;
-	margin-left: 0;
+	margin: 0 0 -8px;
 }
 
 header div.phoneNumber h1.number{
 	font-size: 55px;
 	font-weight: normal;
 	color: #fff;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: -8px;
-	margin-left: 0;
+	margin: 0 0 -8px;
 }
 
 header div.phoneNumber h1.number a{
@@ -172,7 +141,7 @@ header div.phoneNumber h1.number a{
 header div.phoneNumber h4{
 	font-size: 11px;
 	color: #fff;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 header div.phoneNumber h4 a:link,
@@ -191,14 +160,11 @@ header div.greyStrip{
 	height: 39px;
 	width: 100%;
 	max-width: 800px;
-	background-color: #313131;
+	background: #313131;
 }
 
 header div.greyStrip h2.motto{
-	margin-top: 11px;
-	margin-right: 20px;
-	margin-bottom: 0;
-	margin-left: 0;
+	margin: 11px 20px 0 0;
 	line-height: 17px;
 	text-align: right;
 }
@@ -210,39 +176,27 @@ header div.greyStrip h2.motto span{
 
 div.extendable{
 	height: auto;
-	padding-bottom: 16px;
-	background-color: transparent;
+	padding: 0 0 16px;
+	background: transparent;
 }
 
 div.mainContent{
-	margin-top: -18px;
-	margin-right: 0;
-	margin-bottom: 20px;
-	margin-left: 0;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
+	margin: -18px 0 20px;
+	padding: 20px;
 	box-sizing: border-box;
-	background-color: #313131;
+	background: #313131;
 }
 
 div.genericContent{
-	margin-top: 16px;
-	margin-right: 0;
-	margin-bottom: 16px;
-	margin-left: 0;
+	margin: 16px 0;
 	z-index: 8;
 }
 
 div.genericContent h1{
 	color: #fff;
 	font-size: 22px;
-	font-weight: bold;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 8px;
-	margin-left: 0;
+	font-weight: 700;
+	margin: 0 0 8px;
 	text-transform: uppercase;
 }
 
@@ -254,11 +208,8 @@ div.genericContent h1 a{
 div.genericContent h2{
 	font-size: 14px;
 	color: #fff;
-	font-weight: bold;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 8px;
-	margin-left: 0;
+	font-weight: 700;
+	margin: 0 0 8px;
 	text-transform: uppercase;
 }
 
@@ -275,10 +226,7 @@ div.genericContent div.listContainer ul{
 div.genericContent div.listContainer ul.genericList{
 	display: flex;
 	flex-wrap: wrap;
-	padding-top: 0;
-	padding-right: 12px;
-	padding-bottom: 0;
-	padding-left: 0;
+	padding: 0 12px 0 0;
 }
 
 div.genericContent div.listContainer ul.genericList li{
@@ -289,13 +237,10 @@ div.genericContent div.listContainer ul.genericList li{
 
 div.genericContent div.listContainer ul.genericLongList{
 	width: 800px;
-	margin-right: 12px;
+	margin: 0 12px 0;
 	float: left;
 	display: inline-block;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 24px;
+	padding: 0 0 0 24px;
 	list-style: disc outside;
 }
 
@@ -309,14 +254,11 @@ div.mainContent h2.missionStatement{
 	font-size: 24px;
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: bold;
+	font-weight: 700;
 }
 
 div.mainContent div.mission{
-	margin-top: 11px;
-	margin-right: 0;
-	margin-bottom: 16px;
-	margin-left: 0;
+	margin: 11px 0 16px;
 	z-index: 8;
 }
 
@@ -339,12 +281,9 @@ div.mainContent div.mission p > a:hover{
 
 div.mainContent div.mission p span{
 	color: #fff;
-	font-weight: bold;
+	font-weight: 700;
 	display: block;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 4px;
-	margin-left: 0;
+	margin: 0 0 4px;
 }
 
 div.mainContent div.mission p span a:link,
@@ -357,30 +296,18 @@ div.mainContent div.mission p span a:hover{
 
 div.mainContent div.brands{
 	overflow: auto;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 20px;
-	margin-left: 0;
-	border-top: 1px solid #5c5c5c;
-	border-right: 1px solid #5c5c5c;
-	border-bottom: 1px solid #5c5c5c;
-	border-left: 1px solid #5c5c5c;
-	background-color: #080808;
+	margin: 0 0 20px;
+	border: 1px solid #5c5c5c;
+	background: #080808;
 	box-sizing: border-box;
-	padding-top: 8px;
-	padding-right: 0;
-	padding-bottom: 12px;
-	padding-left: 10px;
+	padding: 8px 0 12px 10px;
 }
 
 div.mainContent div.brands h1{
 	color: #fff;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 12px;
-	margin-left: 0;
+	margin: 0 0 12px;
 	font-size: 22px;
-	font-weight: bold;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
@@ -400,62 +327,35 @@ div.mainContent div.brands div.listContainer{
 
 div.mainContent div.brands div.listContainer ul{
 	flex-basis: 15%;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0;
+	padding: 0;
+	margin: 0;
 	list-style: none;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
 }
 
 div.mainContent div.brands div.listContainer ul li{
 	color: #fff;
 	font-size: 12px;
-	padding-top: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 0;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
+	padding: 0;
+	margin: 0;
 }
 
 div.mainContent div.locationsArea{
 	height: 124px;
-	border-top: 1px solid #5c5c5c;
-	border-right: 1px solid #5c5c5c;
-	border-bottom: 1px solid #5c5c5c;
-	border-left: 1px solid #5c5c5c;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
+	border: 1px solid #5c5c5c;
+	margin: 0;
 	display: flex;
 }
 
 div.mainContent div.locationsArea div.rightLocations{
 	height: 112px;
 	width: 668px;
-	background-color: #0a0a0a;
-	padding-top: 12px;
-	padding-right: 0;
-	padding-bottom: 0;
-	padding-left: 22px;
-	background-image: url("../img/states.png");
+	padding: 12px 0 0 22px;
+	background: #0a0a0a url("../img/states.png") no-repeat 98% 50%;
 	background-size: 108px 103px;
-	background-position: 98% 50%;
-	background-repeat: no-repeat;
 }
 
 div.mainContent div.locationsArea div.rightLocations h2.locationHeader{
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 6px;
-	margin-left: 0;
+	margin: 0 0 6px;
 }
 
 div.mainContent div.locationsArea div.rightLocations div.listContainer{
@@ -466,10 +366,7 @@ div.mainContent div.locationsArea div.rightLocations div.listContainer{
 div.mainContent div.locationsArea div.rightLocations div.listContainer ul{
 	flex-basis: 128px;
 	list-style: none;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
+	margin: 0;
 }
 
 div.mainContent div.locationsArea div.rightLocations div.listContainer ul li{
@@ -488,35 +385,25 @@ div.mainContent div.locationsArea div.rightLocations div.listContainer ul li a:h
 div.mainContent div.locationsArea div.leftImage{
 	height: 124px;
 	width: 174px;
-	background-image: url("../img/brothers.jpg");
-	background-repeat: no-repeat;
+	background: url("../img/brothers.jpg") no-repeat;
 	background-size: cover;
 }
 
 div.mainContent div.scheduleAppointment{
 	clear: both;
-	margin-top: 20px;
-	margin-right: auto;
-	margin-bottom: 0;
-	margin-left: auto;
+	margin: 20px auto 0;
 	text-align: center;
 }
 
 div.mainContent div.scheduleAppointment a#schedule{
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	border-bottom-left-radius: 8px;
-	background-color: #c40a0a;
+	border-radius: 8px;
+	background: #c40a0a;
 	color: #fff;
-	padding-top: 12px;
-	padding-right: 16px;
-	padding-bottom: 12px;
-	padding-left: 16px;
+	padding: 12px 16px;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 22px;
 	text-transform: uppercase;
 	letter-spacing: -0.5px;
@@ -526,10 +413,7 @@ div.mainContent div.scheduleAppointment a#schedule{
 footer{
 	width: 100%;
 	max-width: 906px;
-	margin-top: 6px;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: 0;
+	margin: 6px 0 0;
 }
 
 footer a{
@@ -539,13 +423,10 @@ footer a{
 
 footer h3.address{
 	color: #fc0;
-	font-weight: bold;
+	font-weight: 700;
 	font-size: 14px;
 	text-align: center;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 4px;
-	margin-left: 0;
+	margin: 0 0 4px;
 }
 
 footer h6{
@@ -561,21 +442,12 @@ div.loader{
 	transform: translateY(-150%);
 	transition: transform .5s;
 	left: 50%;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 0;
-	margin-left: -155px;
+	margin: 0 0 0 -155px;
 	width: 310px;
 	z-index: 1001;
-	border-top: 5px solid #c40a0a;
-	border-right: 5px solid #c40a0a;
-	border-bottom: 5px solid #c40a0a;
-	border-left: 5px solid #c40a0a;
-	border-top-left-radius: 12px;
-	border-top-right-radius: 12px;
-	border-bottom-right-radius: 12px;
-	border-bottom-left-radius: 12px;
-	background-color: #080808;
+	border: 5px solid #c40a0a;
+	border-radius: 12px;
+	background: #080808;
 }
 
 div.modal.open{
@@ -583,20 +455,14 @@ div.modal.open{
 }
 
 a#okayButton{
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	border-bottom-left-radius: 8px;
-	background-color: #c40a0a;
+	border-radius: 8px;
+	background: #c40a0a;
 	color: #fff;
-	padding-top: 12px;
-	padding-right: 16px;
-	padding-bottom: 12px;
-	padding-left: 16px;
+	padding: 12px 16px;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 22px;
 	text-transform: uppercase;
 	letter-spacing: -0.5px;
@@ -604,74 +470,47 @@ a#okayButton{
 }
 
 #headerStatus{
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 8px;
-	margin-left: 0;
+	margin: 0 0 8px;
 	text-transform: uppercase;
 }
 
 p#status{
 	font-size: 12px;
 	color: #fff;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 12px;
-	margin-left: 0;
+	margin: 0 0 12px;
 }
 
 div.modalContent textarea{
 	box-sizing: border-box;
 	width: 100%;
-	border-top: 1px solid #717171;
-	border-right: 1px solid #717171;
-	border-bottom: 1px solid #717171;
-	border-left: 1px solid #717171;
-	background-color: #313131;
+	border: 1px solid #717171;
+	background: #313131;
 	font-size: 12px;
 	font-family: "Arial", "Helvetica", sans-serif;
 	clear: both;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 6px;
-	margin-left: 0;
-	padding-top: 2px;
-	padding-right: 4px;
-	padding-bottom: 2px;
-	padding-left: 4px;
+	margin: 0 0 6px;
+	padding: 2px 4px;
 	color: #fff;
 	height: 114px;
 }
 
 div.modalContent p.formLabel{
 	font-size: 13px;
-	font-weight: bold;
+	font-weight: 700;
 	color: #fff;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 4px;
-	margin-left: 0;
+	margin: 0 0 4px;
 }
 
 div.modalContent input.text{
 	box-sizing: border-box;
 	width: 100%;
-	border-top: 1px solid #717171;
-	border-right: 1px solid #717171;
-	border-bottom: 1px solid #717171;
-	border-left: 1px solid #717171;
-	background-color: #313131;
+	border: 1px solid #717171;
+	background: #313131;
 	font-size: 12px;
 	font-family: "Arial", "Helvetica", sans-serif;
 	clear: both;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 8px;
-	margin-left: 0;
-	padding-top: 4px;
-	padding-right: 4px;
-	padding-bottom: 4px;
-	padding-left: 4px;
+	margin: 0 0 8px;
+	padding: 4px;
 	color: #fff;
 }
 
@@ -680,28 +519,19 @@ div.modalContent input.text{
 }
 
 div.modalContent div.submitAppointment{
-	margin-top: 10px;
-	margin-right: auto;
-	margin-bottom: 10px;
-	margin-left: auto;
+	margin: 10px auto;
 	text-align: center;
 }
 
 div.modalContent div.submitAppointment a{
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	border-bottom-rightradius: 8px;
-	border-bottom-left-radius: 8px;
-	background-color: #c40a0a;
+	border-radius: 8px;
+	background: #c40a0a;
 	color: #fff;
-	padding-top: 12px;
-	padding-right: 16px;
-	padding-bottom: 12px;
-	padding-left: 16px;
+	padding: 12px 16px;
 	text-decoration: none;
 	display: inline-block;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 22px;
 	text-transform: uppercase;
 	letter-spacing: -0.5px;
@@ -711,10 +541,7 @@ div.modalContent div.submitAppointment a{
 div.modalContent,
 div.loaderContent,
 div.statusContent{
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 10px;
-	padding-left: 10px;
+	padding: 10px;
 }
 
 div.modalContent h2,
@@ -722,17 +549,14 @@ div.loaderContent h2,
 div.statusContent h2{
 	text-transform: uppercase;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 700;
 	color: #fff;
-	margin-top: 0;
-	margin-right: 0;
-	margin-bottom: 20px;
-	margin-left: 0;
+	margin: 0 0 20px;
 }
 
 div.loaderContent,
 div.statusContent{
-	background-color: #000;
+	background: #000;
 	text-align: center;
 }
 
@@ -740,11 +564,8 @@ a.closeModal{
 	width: 32px;
 	height: 32px;
 	display: block;
-	border-top-left-radius: 16px;
-	border-top-right-radius: 16px;
-	border-bottom-right-radius: 16px;
-	border-bottom-left-radius: 16px;
-	background-color: #c40a0a;
+	border-radius: 16px;
+	background: #c40a0a;
 	cursor: pointer;
 	position: absolute;
 	top: 8px;
@@ -757,7 +578,7 @@ a.closeModal:after{
 	display: inline-block;
 	width: 4px;
 	height: 24px;
-	background-color: #fff;
+	background: #fff;
 	position: absolute;
 	transform-origin: 2px 12px;
 	left: 14px;
@@ -782,18 +603,18 @@ div.statusModal{
 
 div.greyStrip h2,
 div.rightLocations h2{
-	font-weight: bold;
+	font-weight: 700;
 	color: #fff;
 	font-size: 17px;
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
 	body{
-		background-image: url("../img/bg@2x.jpg");
+		background: url("../img/bg@2x.jpg");
 	}
 
 	header div.logo a{
-		background-image: url("../img/logo@2x.png");
+		background: url("../img/logo@2x.png");
 		background-size: 282px 184px;
 	}
 
@@ -825,24 +646,15 @@ div.rightLocations h2{
 		flex-direction: column;
 		align-items: center;
 		height: auto;
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 20px;
-		margin-left: 0;
-		padding-top: 0;
-		padding-right: 10px;
-		padding-bottom: 0;
-		padding-left: 10px;
+		margin: 0 0 20px;
+		padding: 0 10px;
 	}
 
 	header div.logo{
 		position: static;
 		top: auto;
 		left: auto;
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 10px;
-		margin-left: 0;
+		margin: 0 0 10px;
 	}
 
 	header div.phoneNumber{
@@ -853,17 +665,11 @@ div.rightLocations h2{
 	}
 
 	header div.phoneNumber h3.numberHeader{
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 2px;
-		margin-left: 0;
+		margin: 0 0 2px;
 	}
 
 	header div.phoneNumber h1.number{
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 0;
-		margin-left: 0;
+		margin: 0;
 		font-size: 40px;
 	}
 
@@ -873,38 +679,23 @@ div.rightLocations h2{
 		right: auto;
 		height: auto;
 		order: 1;
-		background-color: transparent;
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 10px;
-		margin-left: 0;
+		background: transparent;
+		margin: 0 0 10px;
 	}
 
 	header div.greyStrip h2.motto{
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 0;
-		margin-left: 0;
+		margin: 0;
 		text-align: center;
 		line-height: normal;
 	}
 
 	div.mainContent{
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 20px;
-		margin-left: 0;
-		padding-top: 20px;
-		padding-right: 16px;
-		padding-bottom: 20px;
-		padding-left: 16px;
+		margin: 0 0 20px;
+		padding: 20px 16px;
 	}
 
 	div.genericContent{
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 0;
-		margin-left: 0;
+		margin: 0;
 	}
 
 	div.genericContent div.listContainer ul.genericList li{
@@ -921,22 +712,13 @@ div.rightLocations h2{
 
 	div.mainContent div.brands{
 		display: block;
-		padding-top: 8px;
-		padding-right: 8px;
-		padding-bottom: 8px;
-		padding-left: 8px;
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 20px;
-		margin-left: 0;
+		padding: 8px;
+		margin: 0 0 20px;
 	}
 
 	div.mainContent div.brands div.listContainer ul{
 		flex-basis: 33.33333333%;
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 8px;
-		margin-left: 0;
+		margin: 0 0 8px;
 	}
 
 	div.mainContent div.locationsArea{
@@ -949,19 +731,13 @@ div.rightLocations h2{
 
 	footer{
 		box-sizing: border-box;
-		padding-top: 0;
-		padding-right: 16px;
-		padding-bottom: 0;
-		padding-left: 16px;
+		padding: 0 16px;
 	}
 }
 
 @media screen and (max-width:736px){
 	div.mainContent{
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 0;
-		margin-left: 0;
+		margin: 0;
 	}
 
 	div.mainContent h2.missionStatement{
@@ -973,10 +749,7 @@ div.rightLocations h2{
 		display: block;
 		width: 100%;
 		height: auto;
-		padding-top: 8px;
-		padding-right: 8px;
-		padding-bottom: 8px;
-		padding-left: 8px;
+		padding: 8px;
 	}
 
 	div.mainContent div.locationsArea div.leftImage{
@@ -988,23 +761,14 @@ div.rightLocations h2{
 	div.modal,
 	div.statusModal,
 	div.loader{
+		border: 0;
+		margin: 0;
+		border-radius: 0;
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		border-top: 0;
-		border-right: 0;
-		border-bottom: 0;
-		border-left: 0;
-		margin-top: 0;
-		margin-right: 0;
-		margin-bottom: 0;
-		margin-left: 0;
 		left: 0 !important;
 		overflow-y: scroll;
-		border-top-left-radius: 0;
-		border-top-right-radius: 0;
-		border-bottom-right-radius: 0;
-		border-bottom-left-radius: 0;
 	}
 
 	div.statusModal{
@@ -1062,7 +826,7 @@ div.rightLocations h2{
 	text-decoration: none;
 	display: inline-block;
 	font-size: 20px;
-	font-weight: bold;
+	font-weight: 700;
 	line-height: 22px;
 	text-transform: uppercase;
 	letter-spacing: -0.5px;
