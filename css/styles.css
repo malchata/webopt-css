@@ -599,7 +599,7 @@ a.closeModal:after{
 	transform: rotate(-45deg);
 }
 
-// High DPI Screen Styles
+/* High DPI Screen Styles */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi){
 	body{
 		background: url("../img/bg@2x.jpg");
@@ -631,7 +631,7 @@ a.closeModal:after{
 	}
 }
 
-// Tablet Styles
+/* Tablet Styles */
 @media screen and (max-width: 799px){
 	header{
 		display: flex;
@@ -750,7 +750,7 @@ a.closeModal:after{
 	}
 }
 
-// Mobile Styles
+/* Mobile Styles */
 @media screen and (max-width:500px){
 	div.modal,
 	div.statusModal,
