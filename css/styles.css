@@ -696,7 +696,7 @@ div.modalContent div.submitAppointment{
 div.modalContent div.submitAppointment a{
 	border-top-left-radius: 8px;
 	border-top-right-radius: 8px;
-	border-bottom-rightradius: 8px;
+	border-bottom-right-radius: 8px;
 	border-bottom-left-radius: 8px;
 	background-color: #c40a0a;
 	color: #fff;
